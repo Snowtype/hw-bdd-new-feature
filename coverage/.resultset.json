@@ -1,0 +1,83 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/aidesigner/Columbia Univ Course/saas/8.9/hw-bdd-new-feature/app/models/movie.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/aidesigner/Columbia Univ Course/saas/8.9/hw-bdd-new-feature/app/controllers/movies_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          8,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          12,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/aidesigner/Columbia Univ Course/saas/8.9/hw-bdd-new-feature/app/helpers/movies_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1761197990
+  }
+}

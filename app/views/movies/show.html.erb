@@ -1,0 +1,13 @@
+<h1><%= @movie.title %></h1>
+
+<p><strong>Rating:</strong> <%= @movie.rating %></p>
+<p><strong>Director:</strong> <%= @movie.director %></p>
+<p><strong>Release Date:</strong> <%= @movie.release_date.strftime('%Y-%m-%d') if @movie.release_date %></p>
+<p><strong>Description:</strong> <%= @movie.description %></p>
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Back to movies', root_path %>
+
+<% if @movie.director.present? %>
+  <%= link_to 'Find Movies With Same Director', similar_movie_path(@movie), class: 'btn btn-info' %>
+<% end %>
